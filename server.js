@@ -1,9 +1,9 @@
-const PORT = 8000
 const express = require('express')
 const cors = require('cors')
 const app = express()
 require('dotenv').config();
 
+const PORT = process.env.PORT || 8000;
 const username = process.env.USERNAME;
 const password = process.env.PASSWORD;
 
