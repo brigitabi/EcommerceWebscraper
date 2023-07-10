@@ -11,7 +11,7 @@ This web scraping application extracts the best deals from Amazon using Oxylabs 
 
 ### Demo
 
-![PrimeSaver](images/PrimeSaver.png)
+![PrimeSaver](src/images/PrimeSaver.png)
 
 ## Technologies Used
 
