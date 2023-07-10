@@ -4,11 +4,10 @@ const cors = require('cors')
 const app = express()
 require('dotenv').config();
 
-const username = process.env.username;
-const password = process.env.password;
+const username = process.env.USERNAME;
+const password = process.env.PASSWORD;
 
 app.use(cors())
-
 
 app.get('/deals', async (req, res) => {
     try { 

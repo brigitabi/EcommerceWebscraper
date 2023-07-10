@@ -24,9 +24,9 @@ const App = () => {
       <Header />
       <nav> 
         <button className="primary">Amazon</button>
+        <button className="primary" disabled>Etsy</button>
         <button className="primary" disabled>Aliexpress</button>
         <button className="primary" disabled>eBay</button>
-        <button className="primary" disabled>Etsy</button>
       </nav>
       <div>
         <h2>Best deal!</h2>
