@@ -10,10 +10,10 @@ app.get('/deals', async (req, res) => {
     try { 
         const body = { 
             "source": "amazon_search",
-            "domain": "com",
+            "domain": "nl",
             "query": "deals of the day", 
             "parse": true, 
-            "pages": 1
+            "pages": 3
         }
     
         const response = await fetch("https://realtime.oxylabs.io/v1/queries", { 
@@ -41,3 +41,5 @@ app.get('/deals', async (req, res) => {
 })
 
 app.listen(PORT, () => console.log(`Listening on port ${PORT}`))
+
+//query parameters
