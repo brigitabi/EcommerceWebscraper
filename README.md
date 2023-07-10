@@ -29,7 +29,7 @@ To get a local copy of the project up and running, follow these steps:
 2. Navigate to the project directory: `cd ecommercewebscraper`
 3. Install the dependencies: `npm install`
 4. Set up your Oxylabs API credentials: Refer to the documentation on how to obtain your Oxylabs API credentials.
-5. Configure the Oxylabs API credentials in the backend code.
+5. Configure the Oxylabs API credentials in the backend code (and save them in your .env file).
 6. Start the backend server: `npm run start:backend`
 7. Navigate to the frontend directory: `npm run start:frontend`
 8. Install the frontend dependencies: `npm install`
