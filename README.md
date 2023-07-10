@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Amazon Best Deals Scraper (PrimeSaver)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This web scraping application extracts the best deals from Amazon using Oxylabs for web scraping. It provides a user-friendly interface to browse and discover the top deals available on Amazon. The creation of this project has been inspired by [this tutorial on YouTube](https://www.youtube.com/watch?v=2hSC2HaPJDA). Many thanks to Ania! 
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- Scrapes Amazon(NL) for the best deals
+- Displays the deals in a user-friendly format
+- Allows users to browse and explore the deals
+- Integrates with Oxylabs for efficient web scraping
 
-### `npm start`
+### Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![PrimeSaver](images/PrimeSaver.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies Used
 
-### `npm test`
+- React.js: Frontend JavaScript library for building user interfaces
+- Node.js: Backend JavaScript runtime environment
+- Express.js: Web application framework for Node.js
+- Oxylabs: Web scraping service for retrieving data from websites
+- CSS: Markup and styling for the user interface
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+To get a local copy of the project up and running, follow these steps:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository: `git clone git@github.com:brigitabi/EcommerceWebscraper.git`
+2. Navigate to the project directory: `cd ecommercewebscraper`
+3. Install the dependencies: `npm install`
+4. Set up your Oxylabs API credentials: Refer to the documentation on how to obtain your Oxylabs API credentials.
+5. Configure the Oxylabs API credentials in the backend code.
+6. Start the backend server: `npm run start:backend`
+7. Navigate to the frontend directory: `npm run start:frontend`
+8. Install the frontend dependencies: `npm install`
+9. Access the application in your browser at `http://localhost:3000`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Usage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Upon accessing the application, the best deals from Amazon(NL) will be fetched and displayed.
+2. Browse the deals, view their details, and click on a deal to visit the Amazon product page.
+3. Enjoy exploring the best deals on Amazon!
 
-### `npm run eject`
+## Acknowledgments
+- Thanks to Oxylabs for providing the web scraping service and to Ania for coming up with a great tutorial!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Happy coding! 🚀
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
